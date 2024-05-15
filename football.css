@@ -38,8 +38,8 @@ img {
 #flex {
     display: flex;
 }
-nav {
-    flex:2;
+header {
+    flex:12;
 }
 main {
     flex:6.5;
