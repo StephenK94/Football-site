@@ -15,7 +15,7 @@ main {
 aside {
     grid-area: a;
     margin: 15px;
-    width: 560px;
+    width:390px;
 }
 footer {
     grid-area: f;
@@ -31,6 +31,7 @@ footer {
      "f" 
 }
 header {
+    width: 100%;
     text-align: center;
     background-color: #a9a9a9;
     border: 5px solid #D4AF37;
@@ -115,6 +116,7 @@ nav a:hover {
     text-shadow: 10px 7px 7px black;
 }
 footer {
+    width: 100%;
     text-align: center;
     background-color: #009000;
     border: 2px solid #D4AF37;
@@ -129,7 +131,6 @@ aside {
     background-image: url(balondortext.jpg.webp);
     background-repeat: repeat;
     background-size: contain;
-    width: 560px;
 }
 @media (min-width: 300px){
     #wrapper {
@@ -161,6 +162,7 @@ aside {
            "n   m   a"
            "f   f   f"
            /150px 2fr 1fr;
+    }
     }
     nav li {
         /* display: flex;
