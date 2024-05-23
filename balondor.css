@@ -163,13 +163,9 @@ aside {
            "f   f   f"
            /150px 2fr 1fr;
     }
-    }
-    nav li {
-        /* display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 30px; */
+    li {
+        padding:10px;
+       }
     }
     nav ul {
         display: flex;
@@ -197,7 +193,7 @@ ol {
 
 li {
     padding:5px;
-    color: #ffffff;
+    color: #ffffff;;
 }
 
 .aside-heading {
