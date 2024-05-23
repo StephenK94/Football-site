@@ -14,7 +14,8 @@ main {
 }
 aside {
     grid-area: a;
-    margin: 15px
+    margin: 15px;
+    width: 390px;
 }
 footer {
     grid-area: f;
@@ -68,9 +69,9 @@ nav li {
     padding: 25px;
     min-width: 3em;
     margin: 5px;
-    background-image: url(championsheader.jpg);
+    background-image: url(championsnav.jpg);
     background-repeat:repeat;
-    background-size:contain;
+    background-size:cover;
     border: 5px solid;
     border-radius: 2em;
     text-align: center;
@@ -164,6 +165,7 @@ meter {
         margin: 10px;
     }
 }
+
 @media (min-width:1200px){
     #wrapper {
         grid-template:
@@ -172,6 +174,8 @@ meter {
            "f   f   f"
            /150px 2fr 1fr;
     }
+}
+
     nav li {
         display: flex;
         flex-direction: column;
@@ -187,7 +191,8 @@ meter {
         margin-left: 0;
         font-size: large;
     }
-}
+
+
 a {
     color: lightblue;
     font-weight: bold;

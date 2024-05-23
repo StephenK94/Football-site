@@ -73,7 +73,7 @@ nav li {
     padding: 25px;
     min-width: 3em;
     margin: 5px;
-    background-image: url(worldcupnav.jpg);
+    background-image: url(worldcupnavimg.jpg);
     background-repeat:repeat;
     background-size: cover;
     border: 5px solid;
@@ -127,6 +127,7 @@ footer {
     background-size: cover;
     color: #ffffff;
     text-shadow: 5px 5px 5px 5px black;
+    width:100%;
 }
 /* No longer needed */
 /* aside {
@@ -181,6 +182,7 @@ meter {
            "f   f   f"
            /150px 2fr 1fr;
     }
+}
     nav li {
         display: flex;
         flex-direction: column;
@@ -196,29 +198,24 @@ meter {
         margin-left: 0;
         font-size: large;
     }
-}
+
 a {
     color: lightblue;
     font-weight: bold;
 }
 a:hover {
     color: orangered;
-/* }
-/* table, 
-th, 
-tr {
-    border: 3px solid #000000;
-    border-collapse: collapse;
-    padding: 15px; */
-} */
+}
+
 table {
     margin:auto;
     border: 5px solid #009000;
     width: 80%;
     border-spacing: 0;
 }
+
 table a {
-    color:black
+    color: black;
 }
 
 td,
