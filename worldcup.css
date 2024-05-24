@@ -189,6 +189,7 @@ meter {
         flex-wrap: wrap;
         justify-content: space-around;
         padding: 30px;
+        font-size: large;
     }
     nav ul {
         display: flex;

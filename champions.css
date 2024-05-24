@@ -113,6 +113,7 @@ nav a:hover {
     border: 2.5px solid black;
     color: white;
     text-shadow: 10px 7px 7px black;
+    font-weight: bold;
 }
 footer {
     text-align: center;
