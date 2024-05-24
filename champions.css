@@ -200,5 +200,8 @@ a {
 a:hover {
     color: orangered;
 }
+img {
+    float: left; 
+ }
 
 

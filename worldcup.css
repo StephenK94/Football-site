@@ -243,3 +243,6 @@ thead tr:first-of-type {
 tbody tr:nth-of-type(even) {
     background-color: #eaeaea;
 }
+img {
+    float: left; 
+ }

@@ -219,4 +219,7 @@ li {
     text-shadow: 10px 7px 7px black;
     color: whitesmoke;
  }
+ img {
+    float: left; 
+ }
 

@@ -186,4 +186,7 @@ aside {
         font-style: italic;
         border-bottom: #ffffff solid;
     }
+    img {
+       float: left; 
+    }
 
